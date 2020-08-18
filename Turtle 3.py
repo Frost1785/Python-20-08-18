@@ -1,0 +1,17 @@
+import turtle
+eric=turtle.Turtle()
+eric.pensize(10)
+eric.color('magenta')
+eric.speed(100)
+mike=turtle.Turtle()
+mike.pensize(10)
+mike.color('cyan')
+mike.speed(100)
+for i in range(360):
+    eric.forward(1)
+    eric.left(1)
+    mike.forward(1)
+    mike.right(1)
+mike.circle(100)
+eric.circle(100)
+turtle.done()
